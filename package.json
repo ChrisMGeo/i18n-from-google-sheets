@@ -2,7 +2,7 @@
   "name": "i18n-from-google-sheets",
   "version": "1.0.2",
   "description": "Generate i18n files from Google Sheets",
-  "main": "./build/index.js",
+  "main": "build/index.js",
   "bin": {
     "gs2i18n": "./build/index.js"
   },

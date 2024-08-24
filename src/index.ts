@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#! /usr/bin/env node
 import { writeFile, mkdir, PathLike } from "node:fs";
 import { dirname, join } from "node:path";
 import { google } from "googleapis";
