@@ -1,16 +1,7 @@
 {
   "name": "i18n-from-google-sheets",
   "version": "1.0.0",
-  "author": "Chris George",
   "description": "Generate i18n files from Google Sheets",
-  "license": "MIT",
-  "keywords": [
-    "i18n",
-    "internationalization",
-    "googlesheets",
-    "googleapis",
-    "translation"
-  ],
   "main": "./build/index.js",
   "bin": {
     "gs2i18n": "./build/index.js"
@@ -18,6 +9,17 @@
   "scripts": {
     "build": "npx tsc"
   },
+  "keywords": [
+    "i18n",
+    "internationalization",
+    "googlesheets",
+    "googleapis",
+    "translation"
+  ],
+  "author": "Chris George",
+  "license": "ISC",
+  "repository": "https://github.com/ChrisMGeo/i18n-from-google-sheets",
+  "homepage": "https://github.com/ChrisMGeo/i18n-from-google-sheets#readme",
   "devDependencies": {
     "@types/node": "^22.5.0",
     "typescript": "^5.5.4"
