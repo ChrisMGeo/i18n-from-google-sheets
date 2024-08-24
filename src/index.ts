@@ -44,7 +44,7 @@ program.parse(process.argv);
 async function action(spreadsheetId: string, credentials: string, output: string, allowEmptyCells: boolean) {
   console.log(spreadsheetId, credentials, output, allowEmptyCells);
   const auth = new google.auth.GoogleAuth({
-    keyFile: "credentials.json",
+    keyFile: credentials,
     scopes: ["https://www.googleapis.com/auth/spreadsheets.readonly"],
   });
   const googleSheets = google.sheets("v4");
